@@ -34,7 +34,7 @@ It represents real aspects of engineering college life — from canteen food and
 ## 🌍 Live Website *(Optional — add later if you host it)*
 
 👉 Visit the live website here:
-`https://yourusername.github.io/CampusVerse/`
+`https://arushreddy.github.io/CampusVerse/`
 
 
 

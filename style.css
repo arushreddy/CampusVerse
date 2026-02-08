@@ -1,0 +1,136 @@
+/* ===== GLOBAL RESET ===== */
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: radial-gradient(circle at top, #eef2ff, #ffffff);
+    color: #111827;
+}
+
+/* ===== HEADER (HERO STYLE) ===== */
+header {
+    background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+header h1 {
+    margin: 0;
+    font-size: clamp(28px, 4vw, 42px);
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* ===== NAVBAR (MODERN GLASS) ===== */
+nav {
+    background: rgba(30, 64, 175, 0.9);
+    backdrop-filter: blur(8px);
+    padding: 14px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+    padding: 10px 14px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.25);
+    transform: scale(1.05);
+}
+
+/* ===== MAIN CONTENT CARD ===== */
+section {
+    background: rgba(255,255,255,0.9);
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 1000px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    border-left: 8px solid #2563eb;
+    animation: fadeUp 0.8s ease-in-out;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    color: #2563eb;
+    border-bottom: 3px solid #e2e8f0;
+    padding-bottom: 8px;
+}
+
+/* ===== IMAGE GLOW EFFECT ===== */
+img {
+    max-width: 100%;
+    border-radius: 16px;
+    margin-top: 15px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+/* ===== TABLE (PRO LOOK) ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    color: white;
+}
+
+/* ===== LIST STYLE ===== */
+ul li {
+    margin: 6px 0;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: linear-gradient(90deg, #1e40af, #4338ca);
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
